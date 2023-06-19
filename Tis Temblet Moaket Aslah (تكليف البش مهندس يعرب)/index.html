@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="controls">
+    
+    <input class="cantry" type="text" placeholder="ادخل الدوله  اللتي تريد">
+    <input type="text" placeholder="ادخل المدينه اللتي تريد" class="city">
+    <div class="selcted">استعلام</div>
+ </div>
+
+    <br>
+    <div class="container">
+        <h2>هاده التوقيتات لتاريخ <span class="spnas"></span></h2>
+        <h1>  <span class="spnas"></span>أوقات الصلاة في  </h1>
+        <table>
+            <tr>
+                <th>الصلاة</th>
+                <th>الوقت</th>
+            </tr>
+            <tr>
+                <td>الفجر</td>
+                <td id="fajr"></td>
+            </tr>
+            <tr>
+                <td>الشروق</td>
+                <td id="sunrise"></td>
+            </tr>
+            <tr>
+                <td>الظهر</td>
+                <td id="dhuhr"></td>
+            </tr>
+            <tr>
+                <td>العصر</td>
+                <td id="asr"></td>
+            </tr>
+            <tr>
+                <td>المغرب</td>
+                <td id="maghrib"></td>
+            </tr>
+            <td>العشاء</td>
+                <td id="isha"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="in.js"></script>
+</body>
+
+</html>

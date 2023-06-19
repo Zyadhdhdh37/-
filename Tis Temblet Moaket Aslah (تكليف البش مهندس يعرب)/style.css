@@ -1,0 +1,83 @@
+/* تنسيق الصفحة */
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body{
+   background-color: darkorange;
+}
+/* تنسيق الجدول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 10px solid black;
+    font-size: 40px;
+
+}
+th {
+    background-color: #f2f2f2;
+}
+
+/* تنسيق العنوان */
+h1,h2 {
+
+    text-align: center;
+}
+h2{
+    background-color: white;
+}
+
+
+/* تنسيق الوقت */
+#fajr, #sunrise, #dhuhr, #asr, #maghrib, #isha {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/* تنسيق اسم المدينه  */
+.city,.cantry , .selcted{
+    padding: 40px;
+    background: white;
+    display: block;
+    width: 40%;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 20px ;
+    font-size: 30px;
+    font-weight: bold;
+}
+.controls{
+    width: 100%;
+    margin: 110px auto;
+    background: darkorange;
+}
+.selcted{
+border-radius: 50px;
+cursor:  pointer;
+
+}
+.selcted:hover{
+    border: 1px black solid;
+}
+.spnas{
+
+    
+    
+    font-weight: bold;
+
+    font-size: 50px;
+}
+.container  h1 .spans{
+    color:white;   font-weight: bold;
+    
+}
